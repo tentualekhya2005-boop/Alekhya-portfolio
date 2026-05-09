@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentu Alekhya | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Tentu Alekhya, a passionate computer science educator and full-stack developer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <!-- Background Glow Effects -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">T. Alekhya</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Tentu Alekhya</h1>
+                <h2 class="role">
+                    <span class="typing-text"></span><span class="cursor">&nbsp;</span>
+                </h2>
+                <p class="hero-description">
+                    Passionate Computer Science student with strong problem-solving and technical skills, seeking an
+                    opportunity to grow my career and contribute effectively at Google.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="#projects" class="btn secondary-btn">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="image-wrapper">
+                    <img src="assets/image.png" alt="Tentu Alekhya" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="glass-card education-card">
+                <h3><i data-lucide="graduation-cap"></i> Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <h4>B.Tech in CSE</h4>
+                        <p class="institution">GMR Deemed-to-be University | Rajam</p>
+                        <p class="duration">2023 - 2027</p>
+                        <p class="score">Current CGPA: 80%</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <h4>Intermediate</h4>
+                        <p class="institution">Narayana Jr. College | Bobbili</p>
+                        <p class="duration">2022 - 2023</p>
+                        <p class="score">Percentage: 81.2%</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <h4>Secondary Education</h4>
+                        <p class="institution">Z.P. High School | Pakki</p>
+                        <p class="duration">2020 - 2021</p>
+                        <p class="score">GPA: 8.7</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-details">
+                <div class="glass-card details-card">
+                    <h3><i data-lucide="user"></i> Personal Details</h3>
+                    <ul class="details-list">
+                        <li><strong>Location:</strong> Bobbili, Vizianagaram district</li>
+                        <li><strong>DOB:</strong> 2004-12-11</li>
+                        <li><strong>Languages:</strong> English, Telugu</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card details-card">
+                    <h3><i data-lucide="zap"></i> Strengths</h3>
+                    <div class="tags">
+                        <span class="tag">Positive thinking</span>
+                        <span class="tag">Problem-solving</span>
+                        <span class="tag">Self-motivated</span>
+                    </div>
+                </div>
+
+                <div class="glass-card details-card">
+                    <h3><i data-lucide="heart"></i> Hobbies</h3>
+                    <div class="tags">
+                        <span class="tag">Playing Cabaddi</span>
+                        <span class="tag">Gardening</span>
+                        <span class="tag">Learning technologies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="glass-card skill-category">
+                <h3><i data-lucide="code"></i> Programming</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>C <span>5/10</span></span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Python <span>6/10</span></span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Java <span>4/10</span></span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 40%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card skill-category">
+                <h3><i data-lucide="layout"></i> Web Development</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>HTML, CSS, JavaScript, React, Django <span>5/10</span></span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card skill-category">
+                <h3><i data-lucide="database"></i> Core Subjects</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>DBMS <span>6/10</span></span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications section" id="certifications">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certs-grid">
+            <div class="glass-card cert-card">
+                <div class="cert-icon-wrapper">
+                    <i data-lucide="award"></i>
+                </div>
+                <h3>The Joy of Computing Using Python</h3>
+                <p class="cert-org">Awarded Elite Certification by NPTEL</p>
+                <a href="https://drive.google.com/file/d/1fIpfq4lCB8U7qGxVFdpSVeEAxRiROnQd/view?usp=drive_link"
+                    target="_blank" rel="noopener noreferrer" class="cert-link">
+                    <i data-lucide="external-link"></i> View Certificate
+                </a>
+            </div>
+
+            <div class="glass-card cert-card">
+                <div class="cert-icon-wrapper">
+                    <i data-lucide="cloud"></i>
+                </div>
+                <h3>Cloud Computing</h3>
+                <p class="cert-org">Successfully completed a course on Cloud Computing (Certified)</p>
+                <a href="https://drive.google.com/file/d/1QI7CPS8W-RDMPQ0Leu_NSdYYh3KFkA4-/view?usp=drive_link"
+                    target="_blank" rel="noopener noreferrer" class="cert-link">
+                    <i data-lucide="external-link"></i> View Certificate
+                </a>
+            </div>
+
+            <div class="glass-card cert-card">
+                <div class="cert-icon-wrapper">
+                    <i data-lucide="layout"></i>
+                </div>
+                <h3>Web Development Certification</h3>
+                <p class="cert-org">Successfully completed and certified in Web Development.</p>
+                <a href="https://drive.google.com/file/d/1zpaF7GkZ1XrZT8Vz7f1d-bwqFCDVLEc-/view?usp=drive_link"
+                    target="_blank" rel="noopener noreferrer" class="cert-link">
+                    <i data-lucide="external-link"></i> View Certificate
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <h2 class="section-title">Personal Projects</h2>
+        <div class="projects-grid">
+            <div class="glass-card project-card">
+                <div class="project-header">
+                    <h3>AI-Powered Job Recommendation System</h3>
+                    <div class="project-links">
+                        <a href="https://github.com/tentualekhya2005-boop" class="icon-link" target="_blank"
+                            rel="noopener noreferrer"><i data-lucide="github"></i> View Code</a>
+                        <a href="https://drive.google.com/file/d/1cCLN1q1U1Oc-MlkHcjfgXBu1shF8AEtj/view?usp=drive_link"
+                            class="icon-link" target="_blank" rel="noopener noreferrer"><i
+                                data-lucide="external-link"></i> View Project Demo</a>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    An AI Powered Job Recommendation System that analyzes candidate skills to match them with suitable
+                    jobs and recommend the most relevant opportunities.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">AI/ML</span>
+                    <span class="tech-tag">Flask</span>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <div class="project-header">
+                    <h3>Hostel Problem Detection System</h3>
+                    <div class="project-links">
+                        <a href="https://github.com/tentualekhya2005-boop" class="icon-link" target="_blank"
+                            rel="noopener noreferrer"><i data-lucide="github"></i> View Code</a>
+                        <a href="https://drive.google.com/file/d/1b1CGEQLFFh-5sG0Z-rB0EQUag1V-E0vb/view?usp=drive_link"
+                            class="icon-link" target="_blank" rel="noopener noreferrer"><i
+                                data-lucide="external-link"></i> View Project Demo</a>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    A comprehensive MERN stack application designed to manage, track, and resolve hostel-related issues
+                    efficiently with dedicated interfaces.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <div class="project-header">
+                    <h3>Portfolio Website</h3>
+                    <div class="project-links">
+                        <a href="https://github.com/tentualekhya2005-boop" class="icon-link" target="_blank"
+                            rel="noopener noreferrer"><i data-lucide="github"></i> View Code</a>
+                        <a href="#" class="icon-link"><i data-lucide="external-link"></i> View Project Demo</a>
+                    </div>
+                </div>
+                <p class="project-desc">
+                    Created a dynamic and visually appealing portfolio website to showcase personal projects and skills,
+                    including interactive elements and seamless navigation.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="glass-card experience-card">
+            <div class="exp-header">
+                <div class="exp-title">
+                    <h3>Cloud Computing Intern</h3>
+                    <p class="company">HashTek Solutions, Visakhapatnam</p>
+                </div>
+                <div class="exp-duration">
+                    <span class="badge">4 Weeks</span>
+                </div>
+            </div>
+            <p class="exp-desc">
+                Completed an intensive 4-week internship focused on Cloud Computing methodologies, gaining hands-on
+                experience in cloud infrastructure and deployment strategies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container glass-card">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out to me for any opportunities or collaborations.</p>
+
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="icon-wrapper"><i data-lucide="mail"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:tentualekhya2003@gmail.com">tentualekhya2003@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="icon-wrapper"><i data-lucide="phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:9335513977">9335513977</a>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="icon-wrapper"><i data-lucide="map-pin"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Bobbili, Vizianagaram district</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn submit-btn">
+                    Send Message <i data-lucide="send"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Declaration Section -->
+    <section class="declaration-section section">
+        <div class="glass-card declaration-card">
+            <p class="declaration-text">
+                "I hereby declare that the information provided above is true and correct to the best of my knowledge."
+            </p>
+            <div class="declaration-footer">
+                <div class="declaration-meta">
+
+
+                </div>
+                <div class="declaration-signature">
+                    <p class="sig-name">Tentu Alekhya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Tentu Alekhya. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/alekhya-tentu-605785357" target="_blank"
+                        rel="noopener noreferrer" class="social-link"><i data-lucide="linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/tentualekhya2005-boop" target="_blank" rel="noopener noreferrer"
+                        class="social-link"><i data-lucide="github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
