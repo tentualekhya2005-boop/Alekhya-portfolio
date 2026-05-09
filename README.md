@@ -2,6 +2,8 @@
 
 A premium, modern, and fully responsive personal portfolio website built with HTML, CSS, and JavaScript. This portfolio showcases my technical skills, educational background, personal projects, and professional experience.
 
+**🚀 Live Demo**: [View Portfolio](https://alekhya-portfolio-h9ez-git-main-tentualekhya2005-boops-projects.vercel.app)
+
 ## ✨ Features
 
 - **Modern UI/UX**: Sleek dark mode design with glassmorphism effects.
